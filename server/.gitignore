@@ -1,7 +1,7 @@
 node_modules
-models
+
 middlewares
 controllers
 
-.env
+
 routes
