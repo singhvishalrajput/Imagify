@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Description = () => {
   return (
-    <div 
+    <motion.div 
     className='flex flex-col items-center justify-center my-24 p-6 md:px-28'
     initial={{opacity:0.2, y:100}}
     transition={{duration: 1}}
@@ -34,7 +34,7 @@ const Description = () => {
         </div>
     </div>
 
-    </div>
+    </motion.div>
   )
 }
 
